@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "light italic";
+    src: url("https://fontsforyou.com/fonts/l/light italic.ttf");
+}
+
+* {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header,
+.title,
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 200px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+a,
+.header-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.citation {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    /* шрифт не тот */
+    color: #1f2937;
+}
+
+.sign-up,
+.quote,
+.content,
+.header {
+    flex-grow: 1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
