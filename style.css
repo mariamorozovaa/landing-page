@@ -27,11 +27,29 @@ ul {
     display: flex;
     gap: 20px;
 }
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 130px 200px;
+}
+
+.about-website {
+    max-width: 460px;
+}
 
 h1 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+}
+
+.img {
+    display: inline-block;
+    max-width: 500px;
+    background-color: #e5e7eb71;
+    color: #f9faf8;
+    padding: 110px 130px;
 }
 
 a,
@@ -48,12 +66,56 @@ a,
 
 button {
     background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid transparent;
+    padding: 5px 30px;
+    border-radius: 8px;
+}
+
+.btn-top {
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+.sign-up button {
+    border-color: #f9faf8;
+}
+
+.sign-up {
+    background-color: #3882f6;
 }
 
 h2 {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 200px;
+    padding-bottom: 100px;
+    gap: 60px;
+}
+
+.square {
+    display: inline-block;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+}
+
+.box {
+    max-width: 150px;
+    text-align: center;
+}
+.box p {
+    color: #1f2937;
 }
 
 .quote {
