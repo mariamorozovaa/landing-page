@@ -77,14 +77,6 @@ button {
     font-weight: 500;
 }
 
-.sign-up button {
-    border-color: #f9faf8;
-}
-
-.sign-up {
-    background-color: #3882f6;
-}
-
 h2 {
     font-size: 36px;
     color: #1f2937;
@@ -120,6 +112,26 @@ h2 {
 
 .quote {
     background-color: #e5e7eb;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.quote-section {
+    max-width: 740px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.author {
+    color: #1f2937;
+    font-weight: bold;
+    align-self: flex-end;
+    padding-right: 40px;
+    padding-top: 10px;
 }
 
 .citation {
@@ -128,6 +140,22 @@ h2 {
     font-weight: lighter;
     /* шрифт не тот */
     color: #1f2937;
+}
+
+.bgc-white {
+    background-color: #f9faf8;
+    padding: 100px 300px;
+}
+.sign-up button {
+    border-color: #f9faf8;
+    border-radius: 8px;
+}
+/* объединить стили кнопок */
+
+.sign-up {
+    background-color: #3882f6;
+    border-radius: 6px;
+    border: 2px solid transparent;
 }
 
 .sign-up,
