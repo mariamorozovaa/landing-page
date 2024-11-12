@@ -1,8 +1,3 @@
-@font-face {
-    font-family: "light italic";
-    src: url("https://fontsforyou.com/fonts/l/light italic.ttf");
-}
-
 * {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     box-sizing: border-box;
@@ -62,20 +57,7 @@ a,
 .logo {
     font-size: 24px;
     color: #f9faf8;
-}
-
-button {
-    background-color: #3882f6;
-    color: #f9faf8;
-    border: 2px solid transparent;
-    padding: 5px 30px;
-    border-radius: 8px;
-}
-
-.btn-top {
-    margin: 20px 0;
-    font-size: 18px;
-    color: #f9faf8;
+    font-weight: 700;
 }
 
 h2 {
@@ -97,8 +79,8 @@ h2 {
 
 .square {
     display: inline-block;
-    border: 3px solid #3882f6;
-    border-radius: 8px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
     height: 150px;
     width: 150px;
 }
@@ -108,7 +90,7 @@ h2 {
     text-align: center;
 }
 .box p {
-    color: #1f2937;
+    color: #1f2937ba;
 }
 
 .quote {
@@ -128,6 +110,7 @@ h2 {
 }
 
 .author {
+    font-size: 20px;
     color: #1f2937;
     font-weight: bold;
     align-self: flex-end;
@@ -138,24 +121,23 @@ h2 {
 .citation {
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
-    /* шрифт не тот */
+    font-weight: 200;
     color: #1f2937;
 }
 
 .bgc-white {
     background-color: #f9faf8;
-    padding: 100px 400px;
 }
 
 .sign-up {
     background-color: #3882f6;
     border-radius: 6px;
     padding: 50px 10px;
+    margin: 100px 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 170px;
+    gap: 100px;
 }
 
 h3 {
@@ -168,13 +150,22 @@ h3 {
     font-size: 18px;
 }
 
-.sign-up button {
-    border-color: #f9faf8;
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid transparent;
+    padding: 5px 30px;
     border-radius: 8px;
     font-size: 18px;
-    color: #f9faf8;
 }
-/* объединить стили кнопок */
+
+.btn-top {
+    margin: 10px 0;
+}
+
+.sign-up button {
+    border-color: #f9faf8;
+}
 
 .footer p {
     text-align: center;
